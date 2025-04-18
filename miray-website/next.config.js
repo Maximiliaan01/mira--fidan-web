@@ -7,6 +7,9 @@ const nextConfig = {
     unoptimized: true,
   },
   output: 'export', // Static HTML export için
+  trailingSlash: true,
+  assetPrefix: '/',
+  basePath: '',
 };
 
 module.exports = nextConfig; 
